@@ -274,3 +274,9 @@ span:nth-child(9){
   animation-delay: 2.75s;
   animation-duration: 2.75s;
 }
+
+@layer components{
+  .ios-fix{
+    @apply absolute top-0 bottom-0 left-0 right-0
+  }
+}

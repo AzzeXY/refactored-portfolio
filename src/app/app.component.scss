@@ -8,6 +8,12 @@
   width: 90%;
 }
 
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 25px auto;
+  }
+}
+
 h1 {
   font-size: 2.2em;
   font-family: 'Calibri', sans-serif;
@@ -23,7 +29,7 @@ h2 {
   color: #778da9;
 }
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-family: 'Calibri', sans-serif;
   line-height: 1.6;
   color: #eaeaea;
@@ -41,7 +47,7 @@ p {
   font-family: 'Calibri', sans-serif;
   display: inline-block;
   margin: 0 10px;
-  color: #66fcf1;
+  color: #e0e1dd;
   text-decoration: none;
   font-size: 1.1em;
   transition: color 0.3s ease;
